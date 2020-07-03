@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/36f6a8e063.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<style>
+    .heading{
+     
+        display: inline-block;
+    }
+    .carousel {
+    position: relative;
+    width: 50%!important!
+    }
+    .mealThumb{
+    background-color: red;
+    width: 79%;
+    border-radius: 10%;
+    /* margin-top: 23px; */
+    margin-left: 60px;
+    }
+    .product{
+        text-align: center;
+    }
+    .meals{
+        margin-top: 20px;
+    }
+    .Ingredients{
+        width: 400px;
+    height: 400px;
+    background: red;
+    }
+    .desc{
+        font-size: 21px;
+    border: 10px solid black;
+    background: gainsboro;
+    padding: 20px;
+    border-radius: 11px;
+}
+    }
+
+    @media (max-width: 576px) {
+        .d-block{
+            display: none!important;
+     }}
+</style>
+
+  <body>
+      <div class="container">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lifestyle</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More Good Food
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item random">
+                    <a class="nav-link" href="#">Random Receipes</a>
+                  </li>
+                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 cust_search" type="search" placeholder="Search a receipe " >
+                <button class="search btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                
+              </form>
+            </div>
+          </nav>
+
+        
+       
+        <i class="fas fa-utensils fa-3x"></i>
+        <i class="fas fa-concierge-bell fa-3x"></i>
+        <h2 class="heading">Simple Receipe</h2>
+        
+
+  
+    
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <!-- 1 of 2 -->
+                <div class="active">
+                    <img class="d-block w-100" src="chorizo.jpg" alt="First slide">
+                  </div>
+              </div>
+              <div class="col">
+                <!-- 2 of 2 -->
+                <img class="mealThumb " src="" alt="">
+                <h1 class="product">Receipe :</h1>
+                
+              </div>
+            </div>
+          <!-- End of caraousel -->
+
+
+       
+        <!-- <img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/chorizo-mozarella-gnocchi-bake-cropped.jpg" alt=""> -->
+
+          <!-- <input   class="form-control col-6" type="text" placeholder="Search any recipe">
+          <button class="btn btn-warning">Search</button>  
+        -->
+          <div class="meals" >
+            <!-- <input   class="form-control col-6" type="text" placeholder="Search any recipe">
+            <button class="btn btn-warning">Search here</button>  -->
+            <img class="mealThumb" src="" alt="">
+            <a href="meals.html"><h1 class="product" ></h1></a>
+            <h1 class="desc"> </h1>
+            
+            <!-- <h3 class="Ingredients">here</h3> -->
+
+          </div>
+        </div> 
+        <!-- end of carousoul and meals div -->
+        
+        <div id="foods">Ingredients:
+
+
+        </div>
+
+
+        </div>
+  </body>
+</html>

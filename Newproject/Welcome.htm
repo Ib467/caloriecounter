@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:8000/success -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./Welcome_files/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Welcome</title>
+  </head>
+  <body>
+    <h1>Success! Welcome, mike!!</h1>
+    <p> successfully logged in!!!</p>
+    <form action="http://localhost:8000/logout" method="POST">
+        <input type="hidden" name="csrfmiddlewaretoken" value="eU9esjdTLzaAlJcyftNNCv08iIyt5e1c1zPvkhd0ffeAbpcteAdTqakozMdLdyAf">
+    <button>logout</button>
+    </form>
+
+
+  <a href="http://localhost:8000/trip/new">Create a New Trip!</a>
+
+  <!-- available context all_trips-->
+
+<br><br>
+<h4>  Your Trips:</h4>
+
+
+<!-- Bootstarp table here  -->
+<table class="table col-8">
+  <thead>
+    <tr>
+      <th scope="col">Destination</th>
+      <th scope="col">Start Date</th>
+      <th scope="col">End Date</th>
+      <th scope="col">Plan</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/1">Nasville</a>
+      </th><td>May 5, 2019</td>
+      <td>June 15, 2019</td>
+      <td>some trip</td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/1/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/1/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/2">Paris</a>
+      </th><td>Oct. 15, 2019</td>
+      <td>Nov. 1, 2019</td>
+      <td>some trip</td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/2/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/2/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/3">Buenos Aires</a>
+      </th><td>Nov. 3, 2019</td>
+      <td>Nov. 15, 2019</td>
+      <td>great trip. cant wait to visit buenos aires
+</td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/3/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/3/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/4">nyc</a>
+      </th><td>Nov. 1, 2019</td>
+      <td>Nov. 5, 2019</td>
+      <td>Cant wait for NYC!</td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/4/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/4/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/5">alaska</a>
+      </th><td>Nov. 6, 2019</td>
+      <td>Nov. 10, 2019</td>
+      <td></td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/5/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/5/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/6">Los Angeles</a>
+      </th><td>Nov. 12, 2019</td>
+      <td>Nov. 20, 2019</td>
+      <td></td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/6/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/6/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/8">miami</a>
+      </th><td>Feb. 1, 2019</td>
+      <td>Feb. 5, 2019</td>
+      <td></td>
+      <td>
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/9">virginia beach</a>
+      </th><td>Feb. 7, 2019</td>
+      <td>Feb. 12, 2019</td>
+      <td></td>
+      <td>
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/10">louisiana</a>
+      </th><td>Feb. 15, 2019</td>
+      <td>Feb. 21, 2019</td>
+      <td></td>
+      <td>
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/11">dallas</a>
+      </th><td>Feb. 22, 2019</td>
+      <td>Feb. 27, 2019</td>
+      <td></td>
+      <td>
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/12">jamaica</a>
+      </th><td>July 2, 2020</td>
+      <td>July 22, 2020</td>
+      <td>welcome to Jamaica!</td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/12/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/12/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    <tr>
+      <th scope="row">
+        <a href="http://localhost:8000/trip/13">europe</a>
+      </th><td>Aug. 1, 2020</td>
+      <td>Aug. 15, 2020</td>
+      <td>Lets go europe. 15 day around the europe!</td>
+      <td>
+          
+        <a href="http://localhost:8000/trip/13/delete">Remove</a>|
+        <a href="http://localhost:8000/trip/13/edit">Edit</a>|
+        
+      </td> 
+      
+    </tr>
+    
+    
+  </tbody>
+</table>
+
+<br>
+<br>
+
+<h3> Individual jobs assigned to current User:
+
+</h3>
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./Welcome_files/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./Welcome_files/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./Welcome_files/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+
+
+</body></html>
